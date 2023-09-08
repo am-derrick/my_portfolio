@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import gogoolImg from "@/public/gogool.png";
+import theforumImg from "@/public/theforum.png";
+import zoedrugstoreImg from "@/public/zoedrugstore.png";
 
 export const links = [
     {
@@ -58,21 +58,21 @@ export const projectsData = [
         description:
             "A board web app built with python and the Django framework that allows users to create, edit posts and users Django’s authentication, ORM and forms API.",
         tags: ["Django", "Python", "HTML", "CSS"],
-        imageUrl: corpcommentImg,
+        imageUrl: theforumImg,
     },
     {
         title: "Zoe E-commerce Drug Store",
         description:
             "E-commerce web app built with React JS and Node JS for the frontend and backend. The application handles authentication, file storage with Firebase and is integrated with Stripe payment.",
         tags: ["React", "JavaScript", "Nodejs"],
-        imageUrl: rmtdevImg,
+        imageUrl: zoedrugstoreImg,
     },
     {
         title: "Gogool",
         description:
             "Google search clone built with react, nodejs for the frontend and backend and the Google Search API by Rapid API to return search results, images, news and videos.",
         tags: ["React", "Nodejs", "Rapid API"],
-        imageUrl: wordanalyticsImg,
+        imageUrl: gogoolImg,
     },
 ] as const;
 
