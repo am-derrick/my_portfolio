@@ -6,7 +6,7 @@ import gogoolImg from "@/public/gogool.png";
 import theforumImg from "@/public/theforum.png";
 import zoedrugstoreImg from "@/public/zoedrugstore.png";
 
-export const links = [
+export const sections = [
     {
         name: "Home",
         hash: "#home",
