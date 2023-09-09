@@ -1,5 +1,9 @@
+import Introduction from "@/components/introduction";
+
 export default function Home() {
   return (
-    <main className=""></main>
+    <main className="">
+      <Introduction />
+    </main>
   )
 }
