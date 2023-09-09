@@ -57,7 +57,7 @@ export const projectsData = [
         title: "The Forum Django App",
         description:
             "A board web app built with python and the Django framework that allows users to create, edit posts and users Django’s authentication, ORM and forms API.",
-        tags: ["Django", "Python", "HTML", "CSS"],
+        tags: ["Django", "Python", "HTML", "CSS", "Bootstrap"],
         imageUrl: theforumImg,
     },
     {
