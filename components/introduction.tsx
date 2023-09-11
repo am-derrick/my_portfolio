@@ -28,12 +28,12 @@ export default function Introduction() {
             </motion.div>
         </div>
 
-        <motion.p className='mb-10 mt-8 px-4 text-lg font-normal leading-[1.5] sm:text-4xl'
+        <motion.h1 className='mb-10 mt-8 px-4 text-lg font-normal leading-[1.5] sm:text-4xl'
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
         >
-            <span>Hello I&apos;m </span><span className="font-bold">Derrick Ampire</span>, a Software Engineer with a preference for <span className="font-bold">backend and cloud development </span><span>with experience in AWS & GCP, programming in Typescript, Javascript and Python and devops. I have a strong passion for teaching and mentoring.</span>
-        </motion.p> 
+            <span>Hello I&apos;m </span><span className="font-bold">Derrick Ampire</span>, a Software Engineer with a preference for <span className="font-bold">backend and cloud development </span><span>with experience in the MERN stack, programming in Typescript, Javascript and Python.</span>
+        </motion.h1> 
 
         <motion.div className='flex flex-col sm:flex-row justify-center gap-2 px-4 text-lg font-medium'
             initial={{ opacity: 0, y: 100 }}
