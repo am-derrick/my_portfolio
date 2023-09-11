@@ -33,7 +33,7 @@ export const sections = [
     },
 ] as const;
 
-export const experiencesData = [
+export const myExperience = [
     {
         title: "Graduated Software Engineering Course",
         company: "ALX",
@@ -52,7 +52,7 @@ export const experiencesData = [
     },
 ] as const;
 
-export const projectsData = [
+export const myProjects = [
     {
         title: "The Forum Django App",
         description:
@@ -76,7 +76,7 @@ export const projectsData = [
     },
 ] as const;
 
-export const skillsData = [
+export const mySkills = [
     "HTML",
     "CSS",
     "JavaScript",
