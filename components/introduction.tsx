@@ -40,19 +40,19 @@ export default function Introduction() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
         >
-            <Link href='#contact' className='bg-blue-950 text-white px-7 py-3 flex items-center gap-2 rounded-full hover:scale-105'>
+            <Link href='#contact' className='bg-blue-950 text-white px-7 py-3 flex items-center gap-2 rounded-full hover:scale-110'>
                 Contact Me <MdOutgoingMail />
             </Link>
-            <a className='bg-white text-blue-950 px-7 py-3 flex items-center gap-2 rounded-full hover:scale-105'>
+            <a className='bg-white  hover:bg-blue-950 text-blue-950  hover:text-white px-7 py-3 flex items-center gap-2 rounded-full hover:scale-105 cursor-pointer border border-blue-950 border-opacity-30' href='/resume.pdf' download={true}>
                 Download Resume <BsDownload />
             </a>
-            <a className='bg-white text-blue-950 px-7 py-3 flex items-center gap-2 rounded-full hover:scale-105'>
+            <a className='bg-white hover:bg-blue-950 text-blue-950 hover:text-white px-7 py-3 flex items-center gap-2 rounded-full hover:scale-105 ver:scale-105 cursor-pointer border border-blue-950 border-opacity-30' href='https://www.linkedin.com/in/am-derrick/' target='_blank'>
                 <BsLinkedin />
             </a>
-            <a className='bg-white text-blue-950 px-7 py-3 flex items-center gap-2 rounded-full hover:scale-105'>
+            <a className='bg-white  hover:bg-blue-950 text-blue-950  hover:text-white px-7 py-3 flex items-center gap-2 rounded-full hover:scale-105 ver:scale-105 cursor-pointer border border-blue-950 border-opacity-30' href='https://github.com/am-derrick' target='_blank'>
                 <BsGithub />
             </a>
-            <a className='bg-white text-blue-950 px-7 py-3 flex items-center gap-2 rounded-full hover:scale-105'>
+            <a className='bg-white  hover:bg-blue-950 text-blue-950  hover:text-white px-7 py-3 flex items-center gap-2 rounded-full hover:scale-105 ver:scale-105 cursor-pointer border border-blue-950 border-opacity-40' href='https://medium.com/@ampire90' target='_blank'>
                 <BsMedium />
             </a>
         </motion.div>
