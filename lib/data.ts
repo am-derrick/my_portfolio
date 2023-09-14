@@ -54,24 +54,24 @@ export const myExperience = [
 
 export const myProjects = [
     {
-        title: "The Forum Django App",
+        title: "The Forum App",
         description:
-            "A board web app built with python and the Django framework that allows users to create, edit posts and users Django’s authentication, ORM and forms API.",
+            "A boards web app built with Django (Python) framework that allows users to create, edit posts and uses Django’s authentication, ORM and forms API.",
         tags: ["Django", "Bootstrap", "Python"],
         imageUrl: theforumImg,
     },
     {
-        title: "Zoe E-commerce Drug Store",
+        title: "Zoe Drug Store",
         description:
-            "E-commerce web app built with React JS and Node JS for the frontend and backend. The application handles authentication, file storage with Firebase and is integrated with Stripe payment.",
-        tags: ["React", "JavaScript", "Nodejs"],
+            "E-commerce web app built with React and handles authentication, file storage with Firebase and is integrated with Stripe payment.",
+        tags: ["React", "JavaScript", "Nodejs", "HTML", "CSS"],
         imageUrl: zoedrugstoreImg,
     },
     {
         title: "Gogool",
         description:
-            "Google search clone built with react, nodejs for the frontend and backend and the Google Search API by Rapid API to return search results, images, news and videos.",
-        tags: ["React", "Nodejs", "Rapid API"],
+            "Google search clone built with React, Nodejs and the Google Search API by Rapid API to return search results, images, news and videos.",
+        tags: ["React", "Nodejs", "Rapid API", "HTML", "CSS"],
         imageUrl: gogoolImg,
     },
 ] as const;
